@@ -1,0 +1,355 @@
+body
+{   
+    height: 3000px;
+    margin: 0;
+    font-family: 'Hind Guntur','BioRhyme',cursive;
+}
+/*start nav*/
+nav
+{
+    width: 100%;
+    height: 50px;
+    background-color: #1c1c1c;
+    overflow: hidden;
+    position: fixed;
+    
+}
+nav h2
+{
+    float: left;
+    padding-left: 30px;
+    margin-top: 10px;
+    color: #fff;
+}
+nav ul
+{
+    float: right;
+}
+nav ul li
+{
+    display: inline-block;
+    padding: 0 30px 0 10px;
+    color: #fff;
+    font-size: 20px;
+}
+nav ul li:hover
+{
+    color: #aaaaaa;
+}
+/*end nav*/
+/*start clean section*/
+.num1
+{
+    width: 100%;
+    height: 600px;
+    background-color: #666;
+    background-image: url('home-bg.jpg');
+    background-size: cover;
+}
+.num1 .clean
+{
+    width: 35%;
+    position: absolute;
+    top: 250px;
+    left: 350px;
+    text-align: center;
+    color: #fff;
+
+}
+.num1 .clean p
+{
+    letter-spacing: 6px;
+}
+.num1 .clean button
+{
+    margin-top: 20px;
+    padding: 15px 30px;
+    border: 3px solid #fff;
+    color: #fff;
+    background-color: transparent;
+    font-family: 'Hind Guntur','BioRhyme',cursive;
+
+}
+.num1 .clean button:hover{
+    background-color: #1c1c1c
+}
+/*end clean section*/
+/*start gallery section*/
+.num2
+{
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+    
+}
+.num2 h1,
+.num3 h2
+
+{
+    text-align: center;
+    margin: 70px auto;
+    color: #1c1c1c;
+}
+.num2 .lemon1
+{
+    width: 30%;
+    height: 300px;
+    float: left;
+    margin-left: 23px;
+}
+.num2 .lemon1 img
+{
+    width: 100%;
+    height: 200;
+}
+.num2 .lemon1 h3,
+.num2 .lemon1 p,
+.num2 .lemon2 h3,
+.num2 .lemon2 p,
+.num2 .lemon3 h3,
+.num2 .lemon3 p
+{
+    color: #777;
+}
+
+.num2 .lemon2
+{
+    width: 30%;
+    height: 300px;
+    background-color: #00f;
+    float: left;
+        margin-left: 23px;
+
+}
+.num2 .lemon2 img
+{
+    width: 100%;
+    height: 495px;
+}
+.num2 .lemon3
+{
+    width: 30%;
+    height: 300px;
+    float: left;
+        margin-left: 23px;
+
+}
+.num2 .lemon3 img
+{
+    width: 100%;
+    height: 200px;
+}
+.num2 .lemon1 img,
+.num2 .lemon2 img,
+.num2 .lemon3 img
+{
+     transition: all 1s ease-in-out;
+}
+
+/*end gallery section*/
+
+/*start special*/
+.num3
+{
+    width: 100%;
+    height: 600px;
+    background-color: #f0f0f0;
+    overflow: hidden;
+}
+.num3 .order1,
+.num3 .order3,
+.num3 .order5,
+.num3 .order7
+{
+    width: 40%; 
+    height:100px;
+    float: left;
+    margin:0 30px ;
+    padding-left: 20px;
+    color: #555;
+}
+.num3 .order2,
+.num3 .order4,
+.num3 .order6,
+.num3 .order8
+{
+    width: 40%;
+    height:100px;
+    float: left;
+ margin:0 30px;
+    padding-left: 20px;
+    color: #555;
+}
+
+.num4
+{
+     width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.num4 h3
+{
+    margin: 90px 0 70px auto;
+}
+.num4 .img1
+{
+        
+    width: 28%;
+    float: left;
+      margin:0 20px 0 35px;
+}
+.num4 .img2
+{
+        
+    width: 28%;
+    float: left;
+      margin:0 20px;
+}
+.num4 .img3
+{
+        
+    width: 28%;
+    float: left;
+      margin:0 20px;
+}
+.num4 .img1 img,
+.num4 .img2 img,
+.num4 .img3 img
+{
+    width: 100%;
+    height: 260px;
+      transition: all 1s ease-in-out;
+}
+.num2 .lemon1 img:hover,
+.num2 .lemon2 img:hover,
+.num2 .lemon3 img:hover,
+.num4 .img1 img:hover,
+.num4 .img2 img:hover,
+.num4 .img3 img:hover
+{     -webkit-transform: matrix(1.2,0,0,1.2,0,-10);
+    -ms-transform: matrix(1.2,0,0,1.2,0,-10);  
+    -o-transform: matrix(1.2,0,0,1.2,0,-10); 
+    transform: matrix(1.2,0,0,1.2,0,-10);
+}
+.num4 .img1,
+.num4 .img2,
+.num4 .img3
+{
+    color:#555;
+    margin-bottom: 60px;
+}
+/*end special*/
+
+/*start input*/
+.num5
+{
+    background-color: #f0f0f0;
+    overflow: hidden;
+    background-image: url('breather-163391.jpg');
+    background-size: cover;
+}
+.num5 h1
+{   text-align: center;
+    margin: 70px 0 50px 0;
+}
+.num5 .contact
+{
+    width: 40%;
+    float: left;
+    margin-left: 70px;
+}
+.num5 .contact input,
+.num5 .contact textarea,
+.num5 .contact h2
+{
+    display: block;
+    margin: 30px 0 20px 30px;
+}
+.num5 .contact button
+{
+    margin: 20px 0 50px 30px;
+    padding: 10px 20px;
+    border: 3px solid #555;
+    background-color: transparent;
+    font-family: 'Hind Guntur','BioRhyme',cursive;
+
+}
+.num5 .contact button:hover
+{
+    color: #fff;
+    background-color: #1c1c1c;
+}
+.num5 .info
+{
+    width: 40%;
+    float: right;
+    margin-right: 70px;
+}
+.num5 .info h2,
+.num5 .info p
+{
+    margin: 30px 0 30px 30px;
+   
+}
+.num5 .info p
+{
+    line-height: 1.5;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+}
+.num5 span
+{
+    margin-right: 5px ; 
+    font-size: 15px;
+}
+/*end input*/
+/*start footer*/
+footer
+{
+    width: 100%;
+    height: 200px;
+    background-color: #000;
+}
+footer ul
+{
+    list-style: none;
+    padding:15px 0  10px 350px;
+}
+footer ul li
+{
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 20px;
+    color: #777;
+     transition: all .5s ease-in-out;
+}
+footer ul li:hover
+{
+    color: #fff;
+    -webkit-transform: matrix(1.5,0,0,1.5,0,-10);
+    -ms-transform: matrix(1.5,0,0,1.5,0,-10);  
+    -o-transform: matrix(1.5,0,0,1.5,0,-10); 
+   transform: matrix(1.5,0,0,1.5,0,-10);
+}
+footer h2
+{
+    margin-top: 0;
+    padding-top: 30px;
+}
+footer h2,
+footer p
+{
+    text-align: center;
+    color: #fff;
+}
+footer p a
+{
+    color: #fff;
+    text-decoration: none;
+}
+footer p a:hover
+{
+    color:#777;
+}
+/*start footer*/
